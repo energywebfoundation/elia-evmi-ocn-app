@@ -1,0 +1,39 @@
+{
+  "name": "flex-ocn-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register 'test/**/*.spec.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/energywebfoundation/flex-ocn-app.git"
+  },
+  "keywords": [
+    "ew",
+    "flex",
+    "ocn",
+    "ev",
+    "charging"
+  ],
+  "author": "EWF",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/energywebfoundation/flex-ocn-app/issues"
+  },
+  "homepage": "https://github.com/energywebfoundation/flex-ocn-app#readme",
+  "dependencies": {
+    "@shareandcharge/ocn-bridge": "git+https://bitbucket.org/shareandcharge/ocn-bridge.git"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^8.0.0",
+    "@types/node": "^14.0.24",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
