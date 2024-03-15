@@ -1,5 +1,5 @@
 {
-  "name": "flex-ocn-app",
+  "name": "elia-evmi-ocn-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/energywebfoundation/flex-ocn-app.git"
+    "url": "git+ssh://git@github.com/energywebfoundation/elia-evmi-ocn-app.git"
   },
   "keywords": [
     "ew",
@@ -21,9 +21,9 @@
   "author": "EWF",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/energywebfoundation/flex-ocn-app/issues"
+    "url": "https://github.com/energywebfoundation/elia-evmi-ocn-app/issues"
   },
-  "homepage": "https://github.com/energywebfoundation/flex-ocn-app#readme",
+  "homepage": "https://github.com/energywebfoundation/elia-evmi-ocn-app#readme",
   "dependencies": {
     "@shareandcharge/ocn-bridge": "git+https://bitbucket.org/shareandcharge/ocn-bridge.git"
   },
